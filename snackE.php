@@ -79,7 +79,7 @@ $alunni = [
 for ($i = 0; $i < sizeof($alunni); $i++) {
     $media = ($alunni[$i]["voti"]["italiano"] + $alunni[$i]["voti"]["storia"] + $alunni[$i]["voti"]["geografia"] + $alunni[$i]["voti"]["educazioneFisica"]) / 4;
 
-    echo "Nome: " . $alunni[$i]["nome"] . "<br>Cognome: " . $alunni[$i]["cognome"] . "<br> Media Voti: " . $media . "<br><br>";
+    echo "Nome: " . $alunni[$i]["nome"] . "<br>Cognome: " . $alunni[$i]["cognome"] . "<br> Media Voti: " . $media . "<br><br> ";
 }
 
 ?>
